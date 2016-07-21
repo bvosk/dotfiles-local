@@ -1,1 +1,5 @@
+" Elixir
 Plug 'elixir-lang/vim-elixir'
+
+" Markdown
+Plug 'tpope/vim-markdown'
