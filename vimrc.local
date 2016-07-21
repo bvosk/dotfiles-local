@@ -1,0 +1,5 @@
+set relativenumber
+
+" Clipboard
+" """""""""""
+" set clipboard=unnamed " use system clipboard
