@@ -1,0 +1,6 @@
+# Make editing dotfiles easier
+alias ae='$EDITOR ~/dotfiles-local/.aliases.local'
+alias ze='$EDITOR ~/dotfiles-local/.zshrc.local'
+alias ve='$EDITOR ~/dotfiles-local/.vimrc.local'
+alias ge='$EDITOR ~/dotfiles-local/.gitconfig.local'
+alias vbe='$EDITOR ~/dotfiles-local/.vimrc.bundles.local'
