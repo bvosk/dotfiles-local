@@ -1,9 +1,12 @@
-colorscheme jellybeans
+colorscheme Tomorrow
 
 :set t_Co=256
 
 set relativenumber
 
-" Clipboard
+" Syntastic checker
 " """""""""""
-" set clipboard=unnamed " use system clipboard
+let g:syntastic_elixir_checkers = ['ex', 'exs']
+
+" vim-markdown
+let g:markdown_fenced_languages = ['elixir', 'c', 'python', 'ruby', 'bash=sh']
