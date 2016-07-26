@@ -1,6 +1,13 @@
 # Make editing dotfiles easier
+alias ar='source ~/.aliases.local'
 alias ae='$EDITOR ~/dotfiles-local/aliases.local'
 alias ze='$EDITOR ~/dotfiles-local/zshrc.local'
 alias ve='$EDITOR ~/dotfiles-local/vimrc.local'
 alias ge='$EDITOR ~/dotfiles-local/gitconfig.local'
 alias vbe='$EDITOR ~/dotfiles-local/vimrc.bundles.local'
+
+# Blog
+# Build and serve site locally
+alias jbs='jekyll build && jekyll serve --watch'
+# Build and deploy
+alias jbd='jekyll build && octopress deploy'
