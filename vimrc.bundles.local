@@ -1,6 +1,6 @@
 " Themes
 Plug 'chriskempson/base16-vim'
-Plug 'nanotech/jellybeans.vim'
+Plug 'flazz/vim-colorschemes'
 
 " Elixir
 Plug 'elixir-lang/vim-elixir'
