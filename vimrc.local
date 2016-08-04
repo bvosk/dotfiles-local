@@ -1,4 +1,5 @@
-colorscheme Tomorrow
+" colorscheme Tomorrow " Light
+colorscheme jellybeans " Dark
 
 :set t_Co=256
 
