@@ -2,6 +2,9 @@
 Plug 'chriskempson/base16-vim'
 Plug 'flazz/vim-colorschemes'
 
+" General
+Plug 'epmatsw/ag.vim'
+
 " Elixir
 Plug 'elixir-lang/vim-elixir'
 
