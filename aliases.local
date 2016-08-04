@@ -11,3 +11,6 @@ alias vbe='$EDITOR ~/dotfiles-local/vimrc.bundles.local'
 alias jbs='jekyll build && jekyll serve --watch'
 # Build and deploy
 alias jbd='jekyll build && octopress deploy'
+
+# iex
+alias iexs='iex -S mix'
