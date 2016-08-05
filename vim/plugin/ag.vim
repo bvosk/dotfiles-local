@@ -6,6 +6,6 @@ function! s:VisualAg()
   execute "Ag! '" . escaped_pattern . "'"
 endfunction
 
-nnoremap \ :Ag!<SPACE> " Search
-vnoremap \ :<C-u>call <sid>VisualAg()<cr> " Search for word in selected text
-nnoremap \| :Ag! '<C-r><C-w>'<cr> " Search for word under cursor
+nnoremap \ :Ag!<SPACE>
+vnoremap \ :<C-u>call <sid>VisualAg()<cr>
+nnoremap \| :Ag! '<C-r><C-w>'<cr>
