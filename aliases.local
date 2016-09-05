@@ -8,9 +8,20 @@ alias vbe='$EDITOR ~/dotfiles-local/vimrc.bundles.local'
 
 # Blog
 # Build and serve site locally
-alias jbs='jekyll build && jekyll serve --watch'
+alias jbs='jekyll build && jekyll serve --watch --port 4001'
 # Build and deploy
 alias jbd='jekyll build && octopress deploy'
 
 # iex
 alias iexs='iex -S mix'
+
+# C
+gccr() {
+  gcc $1 -o a.out
+  ./a.out
+  rm a.out
+}
+
+# Ntfy
+# Notify locally (on linux)
+alias ntfyl='ntfy --backend linux'
