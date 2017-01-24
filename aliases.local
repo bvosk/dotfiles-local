@@ -6,6 +6,17 @@ alias ve='$EDITOR ~/dotfiles-local/vimrc.local'
 alias ge='$EDITOR ~/dotfiles-local/gitconfig.local'
 alias vbe='$EDITOR ~/dotfiles-local/vimrc.bundles.local'
 
+# Git
+alias g='git'
+alias gs='g status'
+alias gl='g log'
+alias gc='g commit'
+alias gca='g commit --amend'
+alias gcane='g commit --amend --no-edit'
+alias gd='g diff'
+alias gdc='g diff --cached'
+alias gaa='g add -A'
+
 # Blog
 # Build and serve site locally
 alias jbs='jekyll build && jekyll serve --watch --port 4001'
@@ -16,8 +27,9 @@ alias jbd='jekyll build && octopress deploy'
 alias iexs='iex -S mix'
 
 # C
+# GCC and Run
 gccr() {
-  gcc $1 -o a.out
+  gcc $1 -o a.out -std=c99
   ./a.out
   rm a.out
 }
@@ -25,3 +37,10 @@ gccr() {
 # Ntfy
 # Notify locally (on linux)
 alias ntfyl='ntfy --backend linux'
+
+# Rust
+source $HOME/.cargo/env
+export RUST_SRC_PATH=~/.multirust/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
+
+# Copy stdout to clipboard
+alias copy='xclip -sel clip'
